@@ -4,6 +4,7 @@
   "description": "Noted es mi proyecto para las materias: Ingeniería Web y Proyecto II.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
