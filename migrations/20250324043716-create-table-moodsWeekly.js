@@ -53,7 +53,7 @@ module.exports = {
           model: "usuarios",
           key: "id",
         },
-      onDelete: "RESTRICTED",
+      onDelete: "RESTRICT",
       }
     })
   },
