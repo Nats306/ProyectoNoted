@@ -43,7 +43,7 @@ const updateTarea = async (req, res) => {
         }
 
         if(titulo) tarea.titulo = titulo;
-        if(completada) tarea.completada = completada;
+        if(completada !== undefined) tarea.completada = completada;
         await tarea.save();
         return res.status(200).json({message: "Tarea actualizada", tarea});
     } catch (error) {
